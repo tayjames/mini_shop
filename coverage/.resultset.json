@@ -181,6 +181,8 @@
       "/Users/tayjames/turing/2module/projects/mini_shop/config/routes.rb": [
         1,
         null,
+        null,
+        1,
         null
       ],
       "/Users/tayjames/turing/2module/projects/mini_shop/app/helpers/application_helper.rb": [
@@ -196,8 +198,20 @@
         1,
         1,
         null
+      ],
+      "/Users/tayjames/turing/2module/projects/mini_shop/app/controllers/merchants_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/tayjames/turing/2module/projects/mini_shop/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1561425305
+    "timestamp": 1561426059
   }
 }
