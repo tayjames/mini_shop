@@ -183,13 +183,70 @@
         null,
         null,
         1,
+        1,
         null
       ],
       "/Users/tayjames/turing/2module/projects/mini_shop/app/helpers/application_helper.rb": [
         1,
         null
+      ],
+      "/Users/tayjames/turing/2module/projects/mini_shop/spec/features/merchants/merchant_id_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/tayjames/turing/2module/projects/mini_shop/spec/models/merchant_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/tayjames/turing/2module/projects/mini_shop/app/models/merchant.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/tayjames/turing/2module/projects/mini_shop/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/tayjames/turing/2module/projects/mini_shop/app/controllers/merchants_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/tayjames/turing/2module/projects/mini_shop/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1561495340
+    "timestamp": 1561500968
   }
 }
