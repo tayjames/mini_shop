@@ -2,6 +2,9 @@
 <%= link_to 'New Merchant', '/merchants/new' %>
 
 <% @merchants.each do |merchant| %>
-  <h2><%= merchant.name %></h2>
-  <%= button_to 'Delete', "/merchants/#{merchant.id}", method: :delete %>
+  <div id="merchant-<%= merchant.id %>">
+    <h2><%= merchant.name %></h2>
+    <%= button_to 'Delete', "/merchants/#{merchant.id}", method: :delete %>
+    <%= link_to 'Edit', "/merchants/#{merchant.id}/edit" %>
+  </div>
 <% end %>

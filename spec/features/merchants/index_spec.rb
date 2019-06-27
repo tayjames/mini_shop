@@ -13,8 +13,6 @@ RSpec.describe "Merchant Index"  do
 
       visit "/merchants"
 
-      save_and_open_page
-
       expect(page).to have_content(merchant_1.name)
       expect(page).to have_content(merchant_2.name)
       expect(page).to have_content(merchant_3.name)

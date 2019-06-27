@@ -18,7 +18,6 @@ RSpec.describe "Merchant id" do
     # visit "/merchants/#{merchant_5.id}"
     # visit "/merchants/#{merchant_6.id}"
     # visit "/merchants/#{merchant_7.id}"
-    save_and_open_page
 
     expect(page).to have_content(merchant_1.name)
     expect(page).to have_content(merchant_1.address)

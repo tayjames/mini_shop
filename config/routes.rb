@@ -9,4 +9,7 @@ Rails.application.routes.draw do
   post '/merchants', to: 'merchants#create'
 
   delete '/merchants/:id', to: 'merchants#destroy'
+
+  get '/merchants/:id/edit', to: 'merchants#edit'
+  patch '/merchants/:id', to: 'merchants#update'
 end
