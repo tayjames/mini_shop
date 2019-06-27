@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get '/merchants', to: 'merchants#index'
   post '/merchants', to: 'merchants#create'
 
+  delete '/merchants/:id', to: 'merchants#destroy'
 end

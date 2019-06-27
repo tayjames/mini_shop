@@ -15,6 +15,11 @@ class MerchantsController < ApplicationController
   def new
   end
 
+  def destroy
+    Merchant.destroy(params[:id])
+    redirect_to '/merchants'
+  end
+
   private
   def merchant_params
     params.permit(:name, :address, :city, :state, :zip)
