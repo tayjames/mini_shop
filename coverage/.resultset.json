@@ -349,6 +349,7 @@
       ],
       "/Users/tayjames/turing/2module/projects/mini_shop/app/models/merchant.rb": [
         1,
+        null,
         1,
         null
       ],
@@ -416,6 +417,6 @@
         null
       ]
     },
-    "timestamp": 1561693035
+    "timestamp": 1561824420
   }
 }
