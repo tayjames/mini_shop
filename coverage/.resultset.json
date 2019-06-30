@@ -196,6 +196,8 @@
         1,
         1,
         1,
+        null,
+        1,
         null
       ],
       "/Users/tayjames/turing/2module/projects/mini_shop/app/helpers/application_helper.rb": [
@@ -367,11 +369,11 @@
         null,
         1,
         null,
-        0,
-        0,
-        0,
-        0,
-        0,
+        1,
+        null,
+        1,
+        null,
+        null,
         null,
         null,
         null,
@@ -467,7 +469,7 @@
       "/Users/tayjames/turing/2module/projects/mini_shop/app/controllers/merchants_controller.rb": [
         1,
         1,
-        6,
+        7,
         null,
         null,
         1,
@@ -496,6 +498,10 @@
         1,
         1,
         1,
+        null,
+        null,
+        1,
+        null,
         null,
         null,
         1,
@@ -506,6 +512,6 @@
         null
       ]
     },
-    "timestamp": 1561914212
+    "timestamp": 1561916121
   }
 }

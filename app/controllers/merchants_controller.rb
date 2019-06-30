@@ -31,6 +31,10 @@ class MerchantsController < ApplicationController
       redirect_to "/merchants/#{merchant.id}"
   end
 
+  def items 
+
+  end
+
   private
   def merchant_params
     params.permit(:name, :address, :city, :state, :zip)
