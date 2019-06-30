@@ -356,6 +356,27 @@
         null,
         null
       ],
+      "/Users/tayjames/turing/2module/projects/mini_shop/spec/features/merchants/merchant_items_index_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/tayjames/turing/2module/projects/mini_shop/spec/features/merchants/new_spec.rb": [
         1,
         null,
@@ -485,6 +506,6 @@
         null
       ]
     },
-    "timestamp": 1561912975
+    "timestamp": 1561914212
   }
 }
