@@ -10,7 +10,7 @@ RSpec.describe 'Edit Item' do
         visit '/items'
 
         click_link 'Edit'
-
+        save_and_open_page
         expect(current_path).to eq("/items/#{item_1.id}/edit")
 
         fill_in 'Description', with: "550.00 a la carte, ask about rates for a bedtime story read in a soothing tone."

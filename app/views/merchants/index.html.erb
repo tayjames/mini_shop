@@ -3,7 +3,7 @@
 
 <% @merchants.each do |merchant| %>
   <div id="merchant-<%= merchant.id %>">
-    <h2><%= merchant.name %></h2>
+    <a href="https://www.w3schools.com"><h2><%= merchant.name %></h2></a>
     <%= button_to 'Delete', "/merchants/#{merchant.id}", method: :delete %>
     <%= link_to 'Edit', "/merchants/#{merchant.id}/edit" %>
   </div>
