@@ -7,6 +7,8 @@ RSpec.describe "Items Index" do
 
       visit "/items"
 
+      save_and_open_page
+
       expect(page).to have_content(item_1.name)
       expect(page).to have_content(item_1.description)
       expect(page).to have_content(item_1.price)

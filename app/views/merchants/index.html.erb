@@ -1,12 +1,90 @@
-<a href="/merchants"><h5>Merchant Index</h5></a>
-<a href="/items"><h6>Item Index</h6></a>
-<h1>All Merchants</h1>
-<%= link_to 'New Merchant', '/merchants/new' %>
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: beige;
+      }
 
-<% @merchants.each do |merchant| %>
-  <div id="merchant-<%= merchant.id %>">
-    <a href="https://www.w3schools.com"><h2><%= merchant.name %></h2></a>
-    <%= button_to 'Delete', "/merchants/#{merchant.id}", method: :delete %>
-    <%= link_to 'Edit', "/merchants/#{merchant.id}/edit" %>
+      h1 {
+        color: orange;
+        font-size: 60px;
+        font-family: cursive;
+        font-stretch: 200%;
+      }
+
+      h2 {
+        color: maroon;
+        font-family: cursive;
+      }
+
+      h3 {
+        color: red;
+        font-family: cursive;
+      }
+
+      p {
+        color: red;
+        font-size: 40px;
+        font-family: cursive;
+      }
+
+      div.scrollable {
+        margin: 30px;
+        border: 2px solid black;
+        padding: 25px;
+        background: url(https://payload.cargocollective.com/1/20/666861/13232262/R0020736_2500_c.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        opacity: 0.6;
+        filter: alpha(opacity=60);
+        height: 100px;
+        width: 300px;
+        overflow-y: scroll;
+      }
+
+      section.transbox {
+          margin: 30px;
+          border: 2px solid black;
+          width: 300px;
+          padding: 25px;
+          background: url(http://northernlauren.com/wp-content/uploads/2018/04/IMG_20180315_101703-750x375.jpg);
+          background-repeat: no-repeat;
+          background-size: auto;
+          opacity: 0.6;
+          filter: alpha(opacity=60);
+        }
+
+      section.transbox p {
+          margin: 5%;
+          font-weight: bold;
+          color: #FF0000
+        }
+    </style>
+    <!-- <body background="http://northernlauren.com/wp-content/uploads/2018/04/IMG_20180315_101703-750x375.jpg"> -->
+    <title>Index</title>
+</head>
+
+<body>
+  <center>
+<!--
+<link rel="stylesheet" href="app/views/css/index.css"> -->
+  <h1>Tay's Tiendita</h1>
+  <section class="transbox">
+    <a href="/merchants"><h3>Merchant Index</h3></a>
+    <a href="/items"><h3>Item Index</h3></a>
+    <%= link_to 'New Merchant', '/merchants/new' %>
+  </section>
+
+  <div class="scrollable">
+    <p>All Merchants</p>
+  <% @merchants.each do |merchant| %>
+    <section id="merchant-<%= merchant.id %>">
+      <a href="/merchants/:id/items"><h2><%= merchant.name %></h2></a>
+      <%= button_to 'Delete', "/merchants/#{merchant.id}", method: :delete %>
+      <%= link_to 'Edit', "/merchants/#{merchant.id}/edit" %>
+    </section>
+  <% end %>
   </div>
-<% end %>
+</body>
+</html>

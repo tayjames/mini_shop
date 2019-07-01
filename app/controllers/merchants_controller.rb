@@ -31,8 +31,8 @@ class MerchantsController < ApplicationController
       redirect_to "/merchants/#{merchant.id}"
   end
 
-  def items 
-
+  def items
+    redirect_to "/merchants/#{merchant.id}/items"
   end
 
   private

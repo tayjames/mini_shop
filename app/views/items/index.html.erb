@@ -1,5 +1,36 @@
-<a href="/merchants"><h5>Merchant Index</h5></a>
-<a href="/items"><h6>Item Index</h6></a>
+<!DOCTYPE HTML>
+<html>
+<head>
+  <style>
+    body {
+      background-color: beige;
+    }
+
+    h1 {
+      color: orange;
+      font-size: 60px;
+      font-family: cursive;
+      font-stretch: 200%;
+    }
+
+    h2 {
+      color: maroon;
+      font-family: cursive;
+    }
+
+    h3 {
+      color: red;
+      font-family: cursive;
+    }
+    </style>
+</head>
+
+<body>
+
+<a href="/merchants"><h3>Merchant Index</h3></a>
+<a href="/items"><h3>Item Index</h3></a>
+<%= link_to 'New Item', '/merchants/new' %>
+
 
 <h1>All Items</h1>
 
@@ -15,3 +46,6 @@
     <%= link_to 'Edit', "/items/#{item.id}/edit" %>
   </div>
 <% end %>
+
+</body>
+</html>

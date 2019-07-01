@@ -1,3 +1,12 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: beige;
+      }
+    </style>
+</head>
 <%= form_tag "/items/#{@item.id}", method: :patch do %>
   <%= label_tag :name %>
   <%= text_field_tag :name, @item.name %>
